@@ -5,10 +5,12 @@ People are riding around on scooters in a city. Policemen must be placed around 
 
 ### Input file format:
 A file called input.txt must be created. It will contain several lines of information about the city. 
-First line: strictly positive 32-bit integer n, the width and height of the nx ncity area, n<= 15.
-Second line: strictly positive 32-bit integer p, the number of police officers
-Third line: strictly positive 32-bit integer s, the number of scooters
-Next s*12lines: the list of scooter x,y coordinatesover time, separated with the End-of-line character LF.  With sscooters and 12 timestepsin a day, this results in 12 coordinatesper scooter.
+<ul>
+  <li>First line: strictly positive 32-bit integer n, the width and height of the nx ncity area, n<= 15.</li>
+                                                                                                       <li>Second line: strictly positive 32-bit integer p, the number of police officers</li>
+  <li>Third line: strictly positive 32-bit integer s, the number of scooters</li>
+  <li>Next s*12lines: the list of scooter x,y coordinatesover time, separated with the End-of-line character LF.  With sscooters and 12 timestepsin a day, this results in 12 coordinatesper scooter.</li>
+</ul>
 
 ### Output file:
 The program will output a file called output.txt that will contain the max activity points collected by the policemen.   
